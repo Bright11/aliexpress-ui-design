@@ -1,0 +1,43 @@
+
+@media (max-width: 900px){
+   
+    .category-and-main-div{
+        position: relative;
+       
+    }
+    .categorys-icon-div{
+        width: fit-content;
+    }
+    .sidebar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+    .category-items{
+        display: none;
+    }
+    .category-items-opend{
+        display: block;
+    }
+
+    .best-salers-items-div{
+        flex-direction: column;
+    }
+
+    .category-and-main{
+        height: max-content;
+    }
+   .shopping-guid-promo-div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: fit-content;
+   margin: 0px auto;
+   }
+    .best-salers-div{
+        width: 90vw !important;
+      flex-basis: 100%;
+    }
+}
