@@ -490,7 +490,9 @@ a{
 }
 
 /* weekly-sales ends */
-
+.topbar{
+    display: none;
+}
 
 
 
