@@ -128,4 +128,27 @@
     .welcometo-chika h1{
         text-align: center;
     }
+    .weekly-sales{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        padding: 0px 2px;
+        
     }
+    .weekly-products-item{
+        max-width: 150px;
+        padding: unset;
+        /* width: 100px;
+        padding: 1px;
+        border-radius: 8px;
+        position: relative;
+        height: 300px;
+        border: 2px solid white;
+        transition: border 1s ease-in-out; */
+    }
+    }
+
+    @media (min-width: 600px) {
+        /* .cards { grid-template-columns: repeat(2, 1fr); } */
+        /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+      }
+      
