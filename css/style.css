@@ -235,6 +235,13 @@ a{
     gap: 20px;
     padding: 0;
 }
+.mobile-cate{
+    padding: 5px;
+    margin-bottom: 20px;
+    width: fit-content;
+    margin: 0;
+    display: none;
+}
 .sidebar{
     flex-basis: 20%;
     padding: 0;
