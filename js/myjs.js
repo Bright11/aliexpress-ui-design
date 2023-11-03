@@ -20,3 +20,11 @@ function closeform(){
     search.classList.remove("searchitem")
     closeformbtn.classList.remove("searchitem")
 }
+
+// nav
+
+const openavmobile=document.querySelector(".topul")
+
+function opennavemobilebtn(){
+    openavmobile.classList.toggle("topulmobileopen")
+}

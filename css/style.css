@@ -9,17 +9,27 @@ a{
 /* .topnav{
     background-color: red;
 } */
+.closnav-btn{
+   border: none;
+   padding: 8px;
+   cursor: pointer;
+   background-color: transparent;
+   display: none;
+}
 
+.closnav-btn i{
+    font-size: 30px;
+}
 .topnav{
     background-color: white;
     display: flex;
     align-items:center;
-    justify-content: flex-end;
+    justify-content: space-between;
+    
 }
 .topul{
     display: flex;
     align-items: center;
-  justify-content: space-around;
   gap: 20px;
 }
 .topli{
