@@ -74,7 +74,9 @@
                     <input type="text" placeholder="I'm shipping for">
                     <button><i class="fa-solid fa-magnifying-glass searchicon"></i></button>
                 </form>
+               
             </div>
+            <button onclick="opensearchform()" class="open-searchformbtn"><i class="fa-solid fa-magnifying-glass open--icon"></i></button>
             <li class="shopping-cart-li"><a href=""><i class="fa-solid fa-cart-shopping shopping-icon"></i>
                 <span class="count-span">90</span>
             </a>
@@ -84,6 +86,9 @@
                 <img src="img/qrlcode.webp" alt="">
             </a></li>
         </ul>
+       <div onclick="closeform()" class="closeform-div">
+        <button class="close-form-btn"><i class="fa-solid fa-xmark"></i></button>
+       </div>
     </section>
 
     <!-- the end of search bar -->
@@ -249,6 +254,17 @@
                     <a href="">View All</a>
                    </div>
                     <div class="right-item-div">
+                        <div class="items-right-image-div">
+                            <a href="">
+                                <img src="img/1.jpg" alt="">
+                                <div class="price-best-saler">
+                                    <p>$150</p>
+                                </div>
+                            </a>
+                            <div class="discount-best-saler">
+                                <h2>-30%</h2>
+                            </div>
+                        </div>
                         <div class="items-right-image-div">
                             <a href="">
                                 <img src="img/1.jpg" alt="">

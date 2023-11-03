@@ -128,25 +128,57 @@ a{
     align-items: center;
     padding: 5px;
     border-radius: 10px;
-    height: 30px;
+    height: fit-content;
     padding: 0px;
 }
 .searchbar-form{
     width: 100%;
+    display: flex;
     padding-bottom: 6px;
     padding-top: 2px;
 }
 .searchbar-form input{
-    width: 90%;
+   flex-basis: 90%;
     padding: 5px;
     border: none;
     outline: none;
-}.searchbar-form button{
-    width: 5%;
+}
+.searchbar-form button{
+  flex-basis:5%;
     padding: 10px;
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+.open-searchformbtn{
+    display: none;
+    border: none;
+    background-color: var(--primary-color);
+    padding: 8px;
+    border-radius: 50%;
+}
+.open--icon{
+    color: white;
+    font-size: 24px;
+}
+.closeform-div {
+    border: none;
+   align-items: center;
+  display: none;
+   width: fit-content;
+   padding:0px 8px;
+   margin-bottom: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+}
+
+.closeform-div .close-form-btn{
+    border: none;
+    background-color: transparent;
+}
+.close-form-btn i{
+    font-size: 24px;
 }
 
 .qrcode a img{
@@ -396,13 +428,14 @@ a{
     display: flex;
     align-items: center;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 50px;
 }
 
 .items-right-image-div img{
-    width: 130px;
+    width: 90px;
+    border-radius: 8px;
 }
 .items-right-image-div{
     position: relative;
@@ -490,9 +523,6 @@ a{
 }
 
 /* weekly-sales ends */
-.topbar{
-    display: none;
-}
 
 
 
